@@ -5,83 +5,70 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_background"
+    android:background="@drawable/background_gradatien"
     tools:context=".ui.main.DescriptionApp">
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="88dp"
-        android:text="Tolong Online"
-        android:textColor="@color/white"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/TL1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
-        android:text="Join in the"
+        android:layout_marginTop="6dp"
+        android:text="Join Your The"
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <TextView
         android:id="@+id/TL2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:text="Tolong Online"
         android:textColor="@color/white"
         android:textSize="35sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/TL1" />
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:id="@+id/textView4"
+        android:layout_width="341dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:text="Menjadi aplikasi layanan darurat terpercaya yang membawa manfaat, keamanan, dan kemudahan bagi masyarakat dalam menghadapi situasi genting di jalan"
+        android:textAlignment="center"
         android:textColor="@color/white"
-        android:text="Nikmati layanan kami dengan gratis "
+        android:textSize="13sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/TL2" />
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="347dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="24dp"
-        android:text="Tolong Online adalah aplikasi layanan darurat di jalan yang memudahkan masyarakat untuk mendapatkan bantuan saat menghadapi situasi saat kendaraan"
-        android:textAlignment="center"
-        android:textSize="13sp"
-        android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
     <Button
         android:id="@+id/button"
         android:layout_width="300dp"
-        android:layout_height="55dp"
-        android:layout_marginTop="53dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="24dp"
         android:backgroundTint="#FD6D3E"
-        android:text="Register"
+        android:gravity="center"
+        android:text="Join Now"
+        android:textSize="23sp"
         app:cornerRadius="12dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="149dp"
+        android:src="@drawable/maps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
