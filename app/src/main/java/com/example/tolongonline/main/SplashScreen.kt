@@ -1,4 +1,4 @@
-package com.example.tolongonline.ui.main
+package com.example.tolongonline.main
 
 import android.content.Intent
 import android.os.Bundle

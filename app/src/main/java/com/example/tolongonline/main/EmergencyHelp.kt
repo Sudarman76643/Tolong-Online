@@ -1,4 +1,4 @@
-package com.example.tolongonline.ui.main
+package com.example.tolongonline.main
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
