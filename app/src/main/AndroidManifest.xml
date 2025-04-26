@@ -13,6 +13,9 @@
         android:theme="@style/Theme.TolongOnline"
         tools:targetApi="31">
         <activity
+            android:name=".main.OTPActivity"
+            android:exported="false" />
+        <activity
             android:name=".main.LoginHp"
             android:exported="false" />
         <activity
