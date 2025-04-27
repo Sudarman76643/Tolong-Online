@@ -26,7 +26,7 @@ class DescriptionApp : AppCompatActivity() {
         binding.button.setOnClickListener {
             val intent = Intent(this, LoginHp::class.java)
             startActivity(intent)
-            finish()
+
         }
     }
 }

@@ -232,7 +232,6 @@
      android:layout_width="0dp"
      android:layout_height="wrap_content"
      android:text="Call"
-     android:textSize="20sp"
      android:textColor="@android:color/white"
      android:background="@drawable/bg_purple_rounded"
      app:backgroundTint="@null"
