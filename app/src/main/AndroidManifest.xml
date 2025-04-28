@@ -13,13 +13,19 @@
         android:theme="@style/Theme.TolongOnline"
         tools:targetApi="31">
         <activity
-            android:name=".ui.main.MainActivity"
+            android:name=".main.OTPActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.main.DescriptionApp"
+            android:name=".main.LoginHp"
             android:exported="false" />
         <activity
-            android:name=".ui.main.SplashScreen"
+            android:name=".main.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".main.DescriptionApp"
+            android:exported="false" />
+        <activity
+            android:name=".main.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

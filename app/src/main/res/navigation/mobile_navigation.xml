@@ -31,7 +31,7 @@
 
     <fragment
         android:id="@+id/emergencyHelp"
-        android:name="com.example.tolongonline.ui.main.EmergencyHelp"
+        android:name="com.example.tolongonline.main.EmergencyHelp"
         android:label="Emergency Help"
         tools:layout="@layout/fragment_emergency_help" />
 

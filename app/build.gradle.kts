@@ -57,6 +57,9 @@ dependencies {
     implementation(libs.firebase.auth.ktx)
     implementation(libs.firebase.firestore.ktx)
 
+    //OTP
+    implementation(libs.android.otpview.pinview)
+
     implementation (libs.lottie)
 
     testImplementation(libs.junit)
